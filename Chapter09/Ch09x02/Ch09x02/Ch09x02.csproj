@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C77187C-95C5-414A-B836-00F110D8DB7F}</ProjectGuid>
+    <ProjectGuid>{874970A8-5918-44FC-817D-186EB04B3067}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ch09x01</RootNamespace>
-    <AssemblyName>Ch09x01</AssemblyName>
+    <RootNamespace>Ch09x02</RootNamespace>
+    <AssemblyName>Ch09x02</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ch09ClassLib">
+      <HintPath>..\..\Ch09ClassLib\Ch09ClassLib\bin\Debug\netstandard1.4\Ch09ClassLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyNewClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
