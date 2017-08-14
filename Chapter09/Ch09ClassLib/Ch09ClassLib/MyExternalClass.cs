@@ -2,7 +2,7 @@
 
 namespace Ch09ClassLib
 {
-    internal class MyExternalClass
+    public class MyExternalClass
     {
     }
 }

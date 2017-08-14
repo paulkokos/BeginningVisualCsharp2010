@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ch09x01
 {
-    class MyNewClass
+    internal class MyInternalClass
     {
     }
 }
